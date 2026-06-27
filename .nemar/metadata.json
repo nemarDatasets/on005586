@@ -1,29 +1,81 @@
 {
   "version": "2.0",
-  "dataset_id": "on005586",
-  "source": "openneuro",
-  "source_id": "ds005586",
+  "pipeline_stage": "validated",
   "title": "Electroencephalographic responses to the number of objects in partially occluded and uncovered scenes",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Cemre Baykan": {},
     "Alexander C. Schütz": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds005586.v2.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on005586",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on005586",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.7.0",
-  "recording_modality": [
+  "resource_type_general": "Dataset",
+  "modalities": [
     "eeg"
   ],
-  "datatypes": [
-    "eeg"
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
   ],
-  "acknowledgements": "ACS and CB were supported by the European Research Council (ERC) under the European Union's Horizon 2020 research and innovation programme (grant agreement No. 101001250). ACS was supported by The Adaptive Mind, funded by the Excellence Program of the Hessian Ministry of Higher Education, Science, Research and Art."
+  "formats": [
+    ".Rmd",
+    ".Rproj",
+    ".csv",
+    ".eeg",
+    ".json",
+    ".md",
+    ".tsv",
+    ".vhdr",
+    ".vmrk"
+  ],
+  "description": "This dataset contains electroencephalographic (EEG) recordings from 23 participants performing a passive viewing task involving visual scenes with occluded and uncovered game pieces. Participants viewed scenes with varying numbers of visible objects (4 or 32 pieces) followed by scenes where occluders were removed to reveal hidden objects. The study investigates neural responses to object numerosity under conditions of partial occlusion, comprising 640 trials across eight experimental blocks with systematic manipulation of visible and hidden object counts.",
+  "methods_description": "EEG was recorded during a passive viewing task in a dimly lit room. Each trial consisted of a 1-second fixation cross with drift correction, followed by a 2-second partially occluded scene (with game pieces appearing in the final 1 second), and a 1-second uncovered scene. The experiment included 8 blocks of 80 trials each, with two initial visibility conditions (4 or 32 pieces) and eight uncovered conditions (0, 1, 2, 4, 28, 30, 31, or 32 pieces), totaling 640 trials.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "visual perception"
+    },
+    {
+      "term": "object numerosity"
+    },
+    {
+      "term": "occlusion"
+    },
+    {
+      "term": "event-related potentials"
+    },
+    {
+      "term": "passive viewing"
+    }
+  ],
+  "funding_references": [
+    {
+      "funder_name": "European Research Council",
+      "award_number": "101001250",
+      "award_title": "ERC Horizon 2020 research and innovation programme"
+    },
+    {
+      "funder_name": "Hessian Ministry of Higher Education, Science, Research and Art",
+      "award_title": "The Adaptive Mind - Excellence Program"
+    }
+  ],
+  "source_hash": "206d4974136b95e728c1de2add07b37c9d73df23e0c48e622373c5c0e64defc1"
 }
