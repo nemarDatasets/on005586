@@ -1,0 +1,29 @@
+{
+  "version": "2.0",
+  "dataset_id": "on005586",
+  "source": "openneuro",
+  "source_id": "ds005586",
+  "title": "Electroencephalographic responses to the number of objects in partially occluded and uncovered scenes",
+  "authors": {
+    "Cemre Baykan": {},
+    "Alexander C. Schütz": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds005586.v2.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.7.0",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "acknowledgements": "ACS and CB were supported by the European Research Council (ERC) under the European Union's Horizon 2020 research and innovation programme (grant agreement No. 101001250). ACS was supported by The Adaptive Mind, funded by the Excellence Program of the Hessian Ministry of Higher Education, Science, Research and Art."
+}
