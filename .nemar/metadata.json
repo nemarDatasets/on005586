@@ -2,18 +2,35 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Electroencephalographic responses to the number of objects in partially occluded and uncovered scenes",
+  "description": "This dataset contains electroencephalographic (EEG) recordings from 23 participants performing a passive viewing task involving visual scenes with occluded and uncovered game pieces. Participants viewed scenes with varying numbers of visible and hidden objects to investigate neural responses to object numerosity under occlusion. The study employed a factorial design with 640 trials across eight blocks, systematically manipulating the number of initially visible pieces (4 or 32) and uncovered pieces (0-32) to examine how the brain processes object quantity in partially occluded visual scenes.",
+  "methods_description": "Participants performed a passive viewing task in a dimly lit room. Each trial consisted of a 1-second fixation cross followed by a 2-second presentation of a game board with occluder (game pieces appearing in the final 1 second), followed by a 1-second uncovered scene phase. The experiment comprised 8 blocks of 80 trials each (640 total trials) with a factorial design: 2 initial visibility conditions (4 or 32 pieces) × 8 uncovered conditions (0, 1, 2, 4, 28, 30, 31, or 32 pieces), each repeated 40 times.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
     "Cemre Baykan": {},
     "Alexander C. Schütz": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds005586.v2.0.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "EEG"
     },
+    {
+      "term": "object numerosity"
+    },
+    {
+      "term": "visual occlusion"
+    },
+    {
+      "term": "passive viewing"
+    },
+    {
+      "term": "event-related potentials"
+    },
+    {
+      "term": "visual perception"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on005586",
       "identifier_type": "URL",
@@ -23,47 +40,11 @@
       "identifier": "https://nemar.org/dataset/on005586",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
-    }
-  ],
-  "resource_type_general": "Dataset",
-  "modalities": [
-    "eeg"
-  ],
-  "resource_type_specific": "EEG Dataset",
-  "sizes": [
-    "0.0 KB (1 files)"
-  ],
-  "formats": [
-    ".Rmd",
-    ".Rproj",
-    ".csv",
-    ".eeg",
-    ".json",
-    ".md",
-    ".tsv",
-    ".vhdr",
-    ".vmrk"
-  ],
-  "description": "This dataset contains electroencephalographic (EEG) recordings from 23 participants performing a passive viewing task involving visual scenes with occluded and uncovered game pieces. Participants viewed scenes with varying numbers of visible objects (4 or 32 pieces) followed by scenes where occluders were removed to reveal hidden objects. The study investigates neural responses to object numerosity under conditions of partial occlusion, comprising 640 trials across eight experimental blocks with systematic manipulation of visible and hidden object counts.",
-  "methods_description": "EEG was recorded during a passive viewing task in a dimly lit room. Each trial consisted of a 1-second fixation cross with drift correction, followed by a 2-second partially occluded scene (with game pieces appearing in the final 1 second), and a 1-second uncovered scene. The experiment included 8 blocks of 80 trials each, with two initial visibility conditions (4 or 32 pieces) and eight uncovered conditions (0, 1, 2, 4, 28, 30, 31, or 32 pieces), totaling 640 trials.",
-  "keywords": [
-    {
-      "term": "EEG"
     },
     {
-      "term": "visual perception"
-    },
-    {
-      "term": "object numerosity"
-    },
-    {
-      "term": "occlusion"
-    },
-    {
-      "term": "event-related potentials"
-    },
-    {
-      "term": "passive viewing"
+      "identifier": "10.18112/openneuro.ds005586.v2.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "funding_references": [
@@ -77,5 +58,25 @@
       "award_title": "The Adaptive Mind - Excellence Program"
     }
   ],
-  "source_hash": "206d4974136b95e728c1de2add07b37c9d73df23e0c48e622373c5c0e64defc1"
+  "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "sizes": [
+    "30.8 GB (73 files)"
+  ],
+  "formats": [
+    ".Rmd",
+    ".Rproj",
+    ".csv",
+    ".eeg",
+    ".json",
+    ".md",
+    ".tsv",
+    ".vhdr",
+    ".vmrk",
+    ".yml"
+  ],
+  "source_hash": "3141f1c45e65d50954a64024196c80fa07e7a59232708ca2fd9924dd7cf4c14e"
 }
