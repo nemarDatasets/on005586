@@ -1,4 +1,6 @@
-﻿**Passing Viewing Task**
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on005586-blue)](https://doi.org/10.82901/nemar.on005586)
+
+**Passing Viewing Task**
 
 23 participants took part in this study in return for a monetary incentive at University of Marburg. 
 
