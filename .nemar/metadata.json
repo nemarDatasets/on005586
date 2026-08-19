@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Electroencephalographic responses to the number of objects in partially occluded and uncovered scenes",
-  "description": "This dataset contains electroencephalographic (EEG) recordings from 23 participants performing a passive viewing task involving visual scenes with occluded and uncovered game pieces. Participants viewed scenes with varying numbers of visible and hidden objects to investigate neural responses to object numerosity under occlusion conditions. The study employed a factorial design with 640 trials across eight blocks, systematically manipulating the number of initially visible pieces (4 or 32) and uncovered pieces (0-32) to examine how the brain processes object quantity in partially occluded visual scenes.",
-  "methods_description": "Participants performed a passive viewing task in a dimly lit room. Each trial consisted of a 1-second fixation cross with drift correction, followed by a 2-second presentation of a game board with occluder (game pieces appearing in the final 1 second), and a 1-second uncovered scene phase. The experiment comprised eight blocks of 80 trials each (640 total trials) with a 2×8 factorial design: 2 levels of initially visible pieces (4 or 32) crossed with 8 levels of uncovered pieces (0, 1, 2, 4, 28, 30, 31, or 32). Each condition was repeated 40 times.",
+  "description": "This dataset contains EEG recordings from 23 participants performing a passive viewing task involving partially occluded and uncovered visual scenes containing varying numbers of game pieces. The study investigates how the brain processes numerosity information under conditions of occlusion and disocclusion. Participants viewed scenes with 4 or 32 initially visible game pieces, followed by uncovering to reveal different numbers of additional pieces, across 640 trials.",
+  "methods_description": "Participants performed a passive viewing task in a dimly lit room, viewing a game board with game pieces and a mesh occluder. Each trial began with a fixation cross, followed by a two-second presentation of the partially occluded scene (game pieces appearing only in the final second), then removal of the occluder to reveal the uncovered scene for one second. The experiment comprised eight blocks of 80 trials, with 16 conditions (2 initial visibility levels x 8 uncovering levels) each repeated 40 times, totaling 640 trials. Three participants were excluded due to excessive head movement or equipment malfunction.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -15,19 +15,16 @@
       "term": "EEG"
     },
     {
-      "term": "object numerosity"
-    },
-    {
-      "term": "visual occlusion"
-    },
-    {
-      "term": "passive viewing"
-    },
-    {
-      "term": "event-related potentials"
+      "term": "numerosity"
     },
     {
       "term": "visual perception"
+    },
+    {
+      "term": "occlusion"
+    },
+    {
+      "term": "scene perception"
     }
   ],
   "related_identifiers": [
